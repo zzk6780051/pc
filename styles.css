@@ -1,0 +1,59 @@
+/* 导航栏样式 */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+   
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+   
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+   
+  /* 轮播图样式 */
+  #carousel {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+   
+  #carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+   
+  #carousel img.active {
+    opacity: 1;
+  }
+   
+  /* 产品样式 */
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+   
+  .product img {
+    max-width: 100%;
+  }
+   
+  /* 页脚样式 */
+  footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
